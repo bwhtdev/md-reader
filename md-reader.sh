@@ -43,7 +43,3 @@ echo "$filename" | entr -s "pandoc $filename -o $html_file && html2pdf $html_fil
 # Cleanup files when zathura exits
 wait $!
 rm -f "$html_file" "$pdf_file"
-
-#(echo $1.md | entr -s "pandoc $1.md -o $1.html && html2pdf $1.html && rm $1.html") &
-
-#(zathura $1.pdf && rm $1.pdf) &
