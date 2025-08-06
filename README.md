@@ -2,8 +2,6 @@
 
 > *Reads markdown files without bloated Chromium*
 
-..
-
 ### Install on Nix
 Add package to Nix config (`/etc/nixos/configuration.nix`):
 ```nix
@@ -13,5 +11,10 @@ Add package to Nix config (`/etc/nixos/configuration.nix`):
   ];
 }
 ```
+
 ```
 ```
+
+### Test program locally
+- Run `nix build`
+- Run `./result/bin/md-reader example-readme.md`
