@@ -4,10 +4,6 @@
 
 ### Run on Nix
 - Run `nix run "github:bwhtdev/md-reader" README.md`
-```
-```
-```
-```
 
 ### Test program locally
 - Run `nix build`
