@@ -1,4 +1,4 @@
-# md-reader
+# md-reader (Markdown Reader for NixOS)
 
 > *Reads markdown files without bloated Chromium*
 
